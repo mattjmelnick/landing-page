@@ -8,6 +8,8 @@ body {
 	font-family: Roboto, sans-serif;
 }
 
+/* header and hero section */
+
 .hero-header-left {
 	display: flex;
 	flex-direction: column;
@@ -51,11 +53,10 @@ body {
 ul {
 	display: flex;
 	list-style-type: none;
-	padding: 0;
 }
 
 li {
-	padding: 10px;
+	padding: 30px;
 	padding-right: 0;
 }
 
@@ -87,7 +88,7 @@ a {
 
 .main-hero-text {
 	font-size: 48px;
-	font-weight: 800px;
+	font-weight: 800;
 	color: #f9faf8;
 	margin: 0;
 }
@@ -108,4 +109,49 @@ a {
 	border-radius: 8px;
 	margin-top: -5px;
 	font-weight: bold;
+}
+
+/* some random information section */
+
+.random-information {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.random-info-title {
+	font-size: 36px;
+	font-weight: 800;
+	color: #1f2937;
+}
+
+.boxes {
+	display: flex;
+	padding-top: 30px;
+}
+
+.box {
+	border: 3px solid #3882f6;
+	border-radius: 8px;
+	width: 150px;
+	height: 150px;
+	flex-shrink: 0;
+	margin: 20px;
+}
+
+.box-instance {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.box-caption {
+	text-align: center;
+	width: 150px;
+	margin-top: -15px;
 }
