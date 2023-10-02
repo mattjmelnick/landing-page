@@ -224,3 +224,14 @@ a {
 	border: 2px solid #f9faf8;
 }
 
+/* footer section */
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1f2937;
+	color: white;
+	font-weight: 300;
+	padding: 40px;
+}
