@@ -6,6 +6,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: Roboto, sans-serif;
+	padding: 0px;
+	margin: 0px;
 }
 
 /* header and hero section */
@@ -14,14 +16,14 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
-	margin-left: 200px;
+	margin-left: 400px;
 }
 
 .hero-header-right {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
-	margin-right: 200px;
+	margin-right: 400px;
 }
 
 .hero {
@@ -101,7 +103,7 @@ a {
 	margin-right: 48px;
 }
 
-.button1 {
+.button1, .button2 {
 	width: 100px;
 	background-color: #3882f6;
 	color: #f9faf8;
@@ -183,5 +185,42 @@ a {
 	font-weight: bold;
 	display: flex;
 	justify-content: end;
+}
+
+/* call to action section */
+
+.call-to-action-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px;
+}
+
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+	flex-grow: auto;
+	gap: 60px;
+	padding: 40px 200px;
+	background-color: #3882f6;
+	border-radius: 8px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.call-to-action {
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+}
+
+.sign-up {
+	color: #e5e7e5;
+}
+
+.button2 {
+	border: 2px solid #f9faf8;
 }
 
