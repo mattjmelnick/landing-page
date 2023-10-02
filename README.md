@@ -1,1 +1,2 @@
 # landing-page
+This page demonstrates the HTML and CSS that was taught up to this point. Flexbox was used extensively during this project, with multiple containers being utilized to line everything up in relation to each other.
